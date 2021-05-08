@@ -1,0 +1,36 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+#head{
+    position:relative;
+    left: 10px;
+}
+
+mat-toolbar{
+    background: #072c7a;
+}
+
+.example-icon{
+    background: #072c7a;
+    color: #fff;
+    border: none;
+}
+
+.example-container {
+    height: 400px;
+    overflow: auto;
+    width: 70%;
+    text-align: center;
+    margin:auto;
+}
+  
+table {
+    width: 100%;
+    
+}
+
+th{
+    text-align: center !important;
+    font-weight: 500 !important;
+}
