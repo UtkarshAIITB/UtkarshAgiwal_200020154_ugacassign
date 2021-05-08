@@ -1,0 +1,23 @@
+.navbar-nav{
+	position: relative;
+	left: 1200px;
+}
+
+.nav-item{
+	font-weight: 500;
+}
+
+#success{
+	background: #212529;
+	height: 320px;
+	width: 500px;
+	position: relative;
+	top:80px;
+	left:500px;
+	color:#fff;
+}
+
+#used{
+	position: relative;
+	left:192px;
+}
