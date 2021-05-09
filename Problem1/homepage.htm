@@ -12,6 +12,11 @@
 
 <body background="bckgrnd.jpg">
 
+	<div class="loader_bg">
+		<div class="loader">
+		</div>
+	</div>
+
 <header id="open">
 	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
   		<a class="navbar-brand" href="#"><b> Problem 1 </b></a>
@@ -79,17 +84,20 @@
 		<font color="white">
 			&copy Copyright 2021 <br>
 		
-			<a href="#">Terms and conditions |</a>
-			<a href="#"> IT Policy |</a>
+			<a href="#">Terms and conditions &nbsp&nbsp|&nbsp&nbsp</a>
+			<a href="#"> IT Policy &nbsp&nbsp|&nbsp&nbsp</a>
 			<a href="#"> Unsubscribe </a>
 		</font>
 		</center>
 	</footer>
 
- 		
  
-		
-	
-
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script>
+ 	setTimeout(function(){
+ 		$('.loader_bg').fadeToggle();
+ 	}, 1500);
+ </script>	
+ 
 </body>
 </html>
